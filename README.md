@@ -2,7 +2,7 @@
 
 ```js
 // Is the card number valid?
-var card = '6123451234567893';
+var card = '5163610223543594';
 
 luhn(true, pan);	// true
 
@@ -10,7 +10,7 @@ luhn(true, pan);	// true
 // Calculate check digit
 
 // MII + IIN + "Individual account number"
-var incomplete = '612345123456789';
+var incomplete = '5163610223543594';
 
 luhn(incomplete);	// "3"
 ```
